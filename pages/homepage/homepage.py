@@ -1,6 +1,8 @@
 from pages.basepage import BasePage
+
 from pages.newspage.newspage import NewsPage
-from pages.homepage.homepage_locators_collection import HomePageLocatorCollection
+
+from pages.homepage import HomePageLocatorCollection
 
 
 class HomePage(BasePage):

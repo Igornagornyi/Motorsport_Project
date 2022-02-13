@@ -1,0 +1,1 @@
+from pages.homepage.homepage_locators_collection import HomePageLocatorCollection

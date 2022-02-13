@@ -1,4 +1,5 @@
-from ..configs.test_rail_config import TestRailConfig
+from core.configs import TestRailConfig
+
 from singleton import Singleton
 
 

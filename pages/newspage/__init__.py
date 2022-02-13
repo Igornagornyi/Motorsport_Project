@@ -1,0 +1,1 @@
+from pages.newspage.news_page_locators_collection import NewsPageLocatorCollection

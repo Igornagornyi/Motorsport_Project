@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 
-from core.page_object_singleton import PageObjectSingleton
+from core import PageObjectSingleton
 
 
 class BasePage(PageObjectSingleton):

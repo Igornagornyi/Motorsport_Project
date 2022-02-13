@@ -1,0 +1,1 @@
+from core.page_object_singleton import PageObjectSingleton

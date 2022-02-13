@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from pages.basepage import BasePage
-from pages.newspage.news_page_locators_collection import NewsPageLocatorCollection
+from pages.newspage import NewsPageLocatorCollection
 
 
 class NewsPage(BasePage):
