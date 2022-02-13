@@ -1,4 +1,4 @@
-from singleton import Singleton
+from core.singleton import Singleton
 
 
 class Cookie(Singleton):

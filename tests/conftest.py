@@ -5,9 +5,14 @@ from core.cookie import Cookie
 from selenium.webdriver import Chrome
 
 from core.configs.config import Config
+
 from core.local_storage import LocalStorage
+
 from pages.newspage.newspage import NewsPage
+
 from pages.homepage.homepage import HomePage
+
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 @pytest.fixture(scope="session")
@@ -27,7 +32,7 @@ def localstorage() -> LocalStorage:
 
 @pytest.fixture(scope="session")
 def driver(config, cookie, localstorage) -> Chrome:
-    driver = Chrome(config.driver_path)
+    driver = Chrome(ChromeDriverManager().install())
     driver.get(config.host)
     driver.add_cookie(cookie.cookie_data())
     driver.execute_script(localstorage.storage_data())

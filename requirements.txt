@@ -110,3 +110,8 @@ wsproto==1.0.0
 xdg==5
 xkit==0.0.0
 zipp==1.0.0
+
+SQLAlchemy~=1.4.31
+pip~=20.3.4
+greenlet~=1.1.2
+setuptools~=52.0.0
