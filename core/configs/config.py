@@ -8,4 +8,4 @@ class Config(Singleton):
     def __init__(self):
         self.host = "https://www.motorsport.com/"
         self.test_rail = TestRailConfig()
-        self.data_base = DBconfig()
+        self.database = DBconfig()
