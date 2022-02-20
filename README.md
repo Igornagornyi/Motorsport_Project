@@ -1,4 +1,4 @@
-<h3>Selenium WebDriver Framework with Pytest on functional Approach </strong>
+<h2>Selenium WebDriver Framework with Pytest on functional Approach </strong>
 
 <h3>Structure of the project:</h3>
 <ul>1.core - configs > infrastructure > cookie > singleton > db repositories </ul>
